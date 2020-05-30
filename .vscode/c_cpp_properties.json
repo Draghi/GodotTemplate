@@ -1,0 +1,51 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/ide/**",
+                "${workspaceFolder}/src/**"
+            ],
+            "defines": [
+                "DEBUG_ENABLED ",
+                "DEBUG_MEMORY_ENABLED ",
+                "DEBUG_MEMORY_ALLOC ",
+                "DISABLE_FORCED_INLINE ",
+                "TOUCH_ENABLED ",
+                "ALSA_ENABLED ",
+                "ALSAMIDI_ENABLED ",
+                "PULSEAUDIO_ENABLED ",
+                "_REENTRANT ",
+                "JOYDEV_ENABLED ",
+                "X11_ENABLED ",
+                "UNIX_ENABLED ",
+                "OPENGL_ENABLED ",
+                "GLES_ENABLED ",
+                "PTRCALL_ENABLED ",
+                "TOOLS_ENABLED ",
+                "GDSCRIPT_ENABLED ",
+                "MINIZIP_ENABLED ",
+                "ZSTD_STATIC_LINKING_ONLY ",
+                "GLAD_ENABLED ",
+                "GLES_OVER_GL ",
+                "FREETYPE_ENABLED ",
+                "SVG_ENABLED ",
+                "HAVE_MNTENT"
+            ],
+            "compilerPath": "/usr/bin/g++",
+            "cStandard": "gnu11",
+            "cppStandard": "gnu++17",
+            "intelliSenseMode": "gcc-x64",
+            "compilerArgs": [
+                "-std=gnu++17 ",
+                "-g3 ",
+                "-pipe ",
+                "-fpie ",
+                "-Wall ",
+                "-Wshadow-local ",
+                "-Werror=return-type"
+            ]
+        }
+    ],
+    "version": 4
+}

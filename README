@@ -1,0 +1,6 @@
+This is just a quick template for godot game development via the module system on linux, in VSCode.
+Things to note:
+ - Ctrl + Shift + B will build
+ - Ctrl + Alt   + B will build and run godot, opening the ./dot/ folder as a project
+ - The ide folder contains godot. Simply doing git pull will update it, changing branches is fine
+ - PhysicsTools is included because it's extremely useful

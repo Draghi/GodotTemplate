@@ -1,0 +1,7 @@
+[submodule "src/physicstools"]
+	path = src/physicstools
+	url = git@github.com:Xrayez/godot-physicstools.git
+[submodule "ide"]
+	path = ide
+	url = https://github.com/godotengine/godot.git
+	branch = 3.2
